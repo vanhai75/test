@@ -7,7 +7,7 @@ import "./tokenomic.sol";
 
 contract TokenVesting {
     // 
-    event ERC20Released(address indexed token, uint256 amount); // 提币事件
+    event ERC20Released(address indexed token, uint256 amount); // sua lan3
 
     // sửa 
     mapping(address => uint256) public erc20Released; // 代币地址->释放数量的映射，记录受益人已领取的代币数量
