@@ -9,7 +9,7 @@ contract TokenVesting {
     // 
     event ERC20Released(address indexed token, uint256 amount); // 提币事件
 
-    // 状态变量
+    // sửa 
     mapping(address => uint256) public erc20Released; // 代币地址->释放数量的映射，记录受益人已领取的代币数量
     address public immutable beneficiary; // 受益人地址
     uint256 public immutable start; // 归属期起始时间戳
